@@ -1,0 +1,13 @@
+1. Floyd's Triangle with N lines
+2. Pattern printing: diamond + https://practice.geeksforgeeks.org/problems/triangle-shrinking-downwards/0 + https://practice.geeksforgeeks.org/problems/y-shaped-pattern/0 + https://practice.geeksforgeeks.org/problems/inverted-triangle-of-stars/0 
+3. Reverse a string
+4. Armstrong Number
+5. Fibonacci Series
+6. Palindrome or not
+7. Remove characters from alphanumeric string
+8. https://practice.geeksforgeeks.org/problems/find-number-of-days-between-two-given-dates/0
+9. https://practice.geeksforgeeks.org/problems/check-if-date-is-valid/0
+10. https://practice.geeksforgeeks.org/problems/display-longest-name/0
+11. https://practice.geeksforgeeks.org/problems/vowel-or-not/0
+12. https://practice.geeksforgeeks.org/problems/count-alphabets/0
+13. count the number of frequency of each alphabet/digit

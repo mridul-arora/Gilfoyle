@@ -1,0 +1,13 @@
+Insertion Sort
+Selection Sort
+Bubble Sort
+Merge Sort
+Quick Sort
+Binary Search
+Breadth First Search (BFS)
+Depth First Search (DFS)
+Inorder, Preorder, Postorder Tree Traversals
+Heap Sort
+Kruskal's Algorithm for finding minimum spanning tree
+Single Source Shortest Paths -Dijikstra's Algorithm
+All pairs shortest path - floyd warshall algorithm

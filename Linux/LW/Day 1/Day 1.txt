@@ -1,0 +1,32 @@
+Settings.Network.bridgeadapter
+File.preferences.extension.extension pack
+type command cheese then goto devices.webcam.select default webcam
+type command ifconfig -v enp0s3 after wired connection connected
+
+type these two commands:
+systemctl restart network 
+dhclient 
+
+Again check IP by typing command: ifconfig -v enp0s3
+
+Now to transfer files from windows to the rhel in VM we use WinSCP:
+IP: 192.168.43.91 (which comes from the ifconfig command above)
+username: root 
+password: 789456123
+
+Configure yum now
+In the bottom right corner there is a disk. Right click on it and select rhel.iso. Now goto the desktop, you will see one disk there. right click on that and click open in terminal. Type command pwd, which will probably show this "//run/media/root/RHEL -7.5 Server.x86_64" which the location of the disk. You have to copy this line. Now type command cd to go back to root. 
+Now type command cd  /etc/yum.repos.d
+Then vi dvd.repo
+Press 'i' to insert
+Type in here these 3 lines:
+1. [dvd]
+2. baseurl=file:///run/media/root/RHEL -7.5\ Server.x86_64 (copy the loc you copied and put a frontslashafter 7.5)
+3. gpgcheck=0 
+Click on Esc 
+Type :wq
+Enter
+
+Type yum repolist 
+Output will be like 
+Now your yum is configured
