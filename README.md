@@ -16,11 +16,9 @@ Thus this repository.
 Hope you like it!
 
 ## How I intend to achieve all those skills? 
-I have divided my curriculum into 4 parts i.e 
-1. Coding
-2. Linux
-3. Networking
-4. Hacking 
+<p align="center">
+  <a href="https://github.com/mridul-arora/Gilfoyle/tree/master/Infographs/4steps.jpg" title="Gilfoyle: Four Step Process"><img src="infographs/4steps.jpg"></a>
+</p>
 
 ### License
 [MIT](https://github.com/mridul-arora/Gilfoyle/blob/master/LICENSE)
